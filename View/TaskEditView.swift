@@ -44,12 +44,12 @@ struct TaskEditView: View {
                 Toggle("Schedule Time", isOn: $scheduleTime)
                 DatePicker("Deadline", selection: $deadline, displayedComponents: displayComps())
             }
-//            if selectedTaskItem?.isCompleted() ?? false {
-//                Section(header: Text("Completed")){
-//                    Text(selectedTaskItem?.completedDate?.formatted(date: .abbreviated, time: .shortened) ?? "")
-//                        .foregroundColor(.green)
-//                }
-//            }
+            if selectedTaskItem?.isCompleted() ?? false {
+                Section(header: Text("Completed")){
+                    Text(selectedTaskItem?.completedDate?.formatted(date: .abbreviated, time: .shortened) ?? "")
+                        .foregroundColor(.green)
+                }
+            }
             Section(){
                 Button("Save", action: saveAction)
                     .font(.headline)
