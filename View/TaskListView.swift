@@ -31,9 +31,11 @@ struct TaskListView: View {
                         .onDelete(perform: deleteItems)
                     }
                     .toolbar {
+#if os(iOS)
                         ToolbarItem(placement: .navigationBarTrailing) {
                             EditButton()
                         }
+#endif
                     }
                     HStack {
                         Spacer()
