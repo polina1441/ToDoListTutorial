@@ -16,6 +16,9 @@
 		80EABEE82A0ADBC400DA38D9 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EABEE72A0ADBC400DA38D9 /* FloatingButton.swift */; };
 		80EABEEA2A0ADC2100DA38D9 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EABEE92A0ADC2100DA38D9 /* TaskEditView.swift */; };
 		80EABEEE2A0B8AF500DA38D9 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EABEED2A0B8AF500DA38D9 /* DateHolder.swift */; };
+		80F055232A0D3F1E00A7BE56 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F055222A0D3F1E00A7BE56 /* TaskCell.swift */; };
+		80F055252A0D40BD00A7BE56 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F055242A0D40BD00A7BE56 /* CheckBoxView.swift */; };
+		80F055282A0D971200A7BE56 /* TaskItemExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F055272A0D971200A7BE56 /* TaskItemExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		80EABEE72A0ADBC400DA38D9 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		80EABEE92A0ADC2100DA38D9 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
 		80EABEED2A0B8AF500DA38D9 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		80F055222A0D3F1E00A7BE56 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		80F055242A0D40BD00A7BE56 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		80F055272A0D971200A7BE56 /* TaskItemExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +69,9 @@
 			isa = PBXGroup;
 			children = (
 				80EABED32A0AD8CC00DA38D9 /* ToDoListTutorialApp.swift */,
-				80EABEEC2A0B8AB900DA38D9 /* Shared */,
+				80EABEED2A0B8AF500DA38D9 /* DateHolder.swift */,
 				80EABEEB2A0B8A8A00DA38D9 /* View */,
-				80EABED52A0AD8CC00DA38D9 /* Persistence.swift */,
+				80F055262A0D96D000A7BE56 /* Model */,
 				80EABEDC2A0AD8CD00DA38D9 /* Assets.xcassets */,
 				80EABEDE2A0AD8CD00DA38D9 /* ToDoListTutorial.entitlements */,
 				80EABED72A0AD8CC00DA38D9 /* ToDoListTutorial.xcdatamodeld */,
@@ -88,16 +94,19 @@
 				80EABEDA2A0AD8CC00DA38D9 /* TaskListView.swift */,
 				80EABEE72A0ADBC400DA38D9 /* FloatingButton.swift */,
 				80EABEE92A0ADC2100DA38D9 /* TaskEditView.swift */,
+				80F055222A0D3F1E00A7BE56 /* TaskCell.swift */,
+				80F055242A0D40BD00A7BE56 /* CheckBoxView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		80EABEEC2A0B8AB900DA38D9 /* Shared */ = {
+		80F055262A0D96D000A7BE56 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				80EABEED2A0B8AF500DA38D9 /* DateHolder.swift */,
+				80EABED52A0AD8CC00DA38D9 /* Persistence.swift */,
+				80F055272A0D971200A7BE56 /* TaskItemExtention.swift */,
 			);
-			path = Shared;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +183,9 @@
 				80EABED92A0AD8CC00DA38D9 /* ToDoListTutorial.xcdatamodeld in Sources */,
 				80EABED42A0AD8CC00DA38D9 /* ToDoListTutorialApp.swift in Sources */,
 				80EABEE82A0ADBC400DA38D9 /* FloatingButton.swift in Sources */,
+				80F055282A0D971200A7BE56 /* TaskItemExtention.swift in Sources */,
+				80F055252A0D40BD00A7BE56 /* CheckBoxView.swift in Sources */,
+				80F055232A0D3F1E00A7BE56 /* TaskCell.swift in Sources */,
 				80EABEEA2A0ADC2100DA38D9 /* TaskEditView.swift in Sources */,
 				80EABEDB2A0AD8CC00DA38D9 /* TaskListView.swift in Sources */,
 				80EABED62A0AD8CC00DA38D9 /* Persistence.swift in Sources */,
